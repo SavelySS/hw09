@@ -1,0 +1,8 @@
+{application, iotserv, [
+    {description, "HW09"},
+    {vsn, "1.0.0"},
+    {registered, [iotserv_sup, iotserv]},
+    {applications, [kernel, stdlib, jsx]},
+    {mod, {iotserv_app, []}},
+    {env, []}
+]}.
